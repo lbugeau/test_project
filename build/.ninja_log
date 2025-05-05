@@ -1,5 +1,0 @@
-# ninja log v5
-4	105	7681395536643029	CMakeFiles/test_project.dir/src/main.cpp.obj	285a815eb1bd8fcf
-13	464	7681395540145782	CMakeFiles/test_project.dir/src/comp_sqrt.cpp.obj	856949f4529159bb
-8	479	7681395540291123	CMakeFiles/test_project.dir/src/comp_vectors.cpp.obj	adf6e35178398c7a
-479	900	7681395544437550	test_project.exe	9c0134eb7cf890c3
