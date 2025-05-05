@@ -1,0 +1,155 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/icx.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Intel(R) oneAPI DPC++/C++ Compiler for applications running on Intel(R) 64, Version 2025.0.4 Build 20241205
+      Copyright (C) 1985-2024 Intel Corporation. All rights reserved.
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      The C compiler identification is IntelLLVM, found in:
+        C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Intel/oneAPI/compiler/latest/bin/icx.exe 
+      Build flags: /Wall;/O3;/DNDEBUG;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      Intel(R) oneAPI DPC++/C++ Compiler for applications running on Intel(R) 64, Version 2025.0.4 Build 20241205
+      Copyright (C) 1985-2024 Intel Corporation. All rights reserved.
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is IntelLLVM, found in:
+        C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: .\\foo.h
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-qtjf8l"
+      binary: "C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-qtjf8l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/Qoption,link,/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-qtjf8l
+        
+        Run Build Command(s):ninja -v cmTC_325f9 && [1/2] C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 -QMD -QMT CMakeFiles\\cmTC_325f9.dir\\CMakeCCompilerABI.c.obj -QMF CMakeFiles\\cmTC_325f9.dir\\CMakeCCompilerABI.c.obj.d /FoCMakeFiles\\cmTC_325f9.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_325f9.dir\\ -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_325f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx.exe /nologo CMakeFiles\\cmTC_325f9.dir\\CMakeCCompilerABI.c.obj  /Qoption,link,/machine:x64  /debug /INCREMENTAL /Qoption,link,/subsystem:console   /link /out:cmTC_325f9.exe /implib:cmTC_325f9.lib /pdb:cmTC_325f9.pdb /version:0.0  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/msys64/ucrt64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-r400i6"
+      binary: "C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-r400i6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/Wall /O3 /DNDEBUG /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/Qoption,link,/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/lbugeau/Developpement/github/test_project/build/CMakeFiles/CMakeScratch/TryCompile-r400i6
+        
+        Run Build Command(s):ninja -v cmTC_443a9 && [1/2] C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx.exe  /nologo /TP   /Wall /O3 /DNDEBUG /EHsc  /MDd /Zi /Ob0 /Od /RTC1 -QMD -QMT CMakeFiles\\cmTC_443a9.dir\\CMakeCXXCompilerABI.cpp.obj -QMF CMakeFiles\\cmTC_443a9.dir\\CMakeCXXCompilerABI.cpp.obj.d /FoCMakeFiles\\cmTC_443a9.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_443a9.dir\\ -c C:\\msys64\\ucrt64\\share\\cmake\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && C:\\msys64\\ucrt64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_443a9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\Intel\\oneAPI\\compiler\\latest\\bin\\icx.exe /nologo CMakeFiles\\cmTC_443a9.dir\\CMakeCXXCompilerABI.cpp.obj  /Qoption,link,/machine:x64  /debug /INCREMENTAL /Qoption,link,/subsystem:console   /link /out:cmTC_443a9.exe /implib:cmTC_443a9.lib /pdb:cmTC_443a9.pdb /version:0.0  && cd ."
+        
+      exitCode: 0
+...
