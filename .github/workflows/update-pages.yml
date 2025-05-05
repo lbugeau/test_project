@@ -21,9 +21,9 @@ jobs:
     # Generate Doxygen doc
     - name: Generate Doxygen documentation
       run: |
-        ls
-        ls doc
-        doxygen doc/doxyfile
+        cd doc
+        doxygen doxyfile
+        cd ..
 
     # Copy generated doc to temporary folder
     - name: Copy doc on runner
