@@ -27,7 +27,7 @@ jobs:
 
     # Copy generated doc to temporary folder
     - name: Copy doc on runner
-      run: cp doc/html/* ../doc/html
+      run: mkdir ../doc & cp doc/html/* ../doc
 
     # Push doc on branch 'gh-pages'
     - name: Deploy documentation to gh-pages
@@ -40,7 +40,7 @@ jobs:
         git checkout gh-pages
 
         # Copy doc to current directory
-        cp -r ../doc/html/* .
+        cp -r ../doc/* .
 
         # Commit and push doc
         git add .
