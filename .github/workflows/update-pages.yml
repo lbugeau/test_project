@@ -37,7 +37,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
         # Switch to branch 'gh-pages'
-        git checkout gh-pages
+        git checkout --orphan gh-pages
 
         # Copy doc to current directory
         cp -r ../doc/* .
