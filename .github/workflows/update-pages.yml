@@ -32,7 +32,7 @@ jobs:
     # Push doc on branch 'gh-pages'
     - name: Deploy documentation to gh-pages
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_2 }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Configure Git user to avoid authentication messages
         git config --global user.name "github-actions[bot]"
@@ -47,4 +47,4 @@ jobs:
         # Commit and push doc
         git add .
         git commit -m "Update Doxygen"
-        git push https://$GITHUB_ACTOR:${{ secrets.GH_PAGES_DEPLOY_2 }}@github.com/${{ github.repository }}.git gh-pages --force
+        git push https://github.com/${{ github.repository }}.git gh-pages --force
