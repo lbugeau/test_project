@@ -47,4 +47,4 @@ jobs:
         git commit -m "Update Doxygen"
         git push https://github.com/${{ github.repository }}.git gh-pages --force
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY }}
