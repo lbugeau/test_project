@@ -8,7 +8,13 @@
 
 /**
  * @brief run operations on vectors with different architecture and display execution times
- * 
+ * @details 
+ * Create three strucuture representing a (2, 1000000) table :
+ * - the first is a vector of vector with large indices first
+ * - the second one is a vector of vector with small indices first
+ * - the third one is two 1D vectors
+ * For each vector, a loop access elements of the table
+ * The execution time of each loop is computed and all are displayed at the end
  */
 void comp_vectors()
 {

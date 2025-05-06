@@ -8,7 +8,10 @@
 
 /**
  * @brief run operations implying square root with sqrt function and exponential function and display execution times
- * 
+ * @details 
+ * Create two vector, the run a loop to fill each of them.
+ * Both loops compute the same value but the first one uses std::sqrt(x) to compute x square root while the second one uses std::exp(0.5*sqt::log(x))
+ * The execution time of each loop is computed and both are displayed at the end.
  */
 void comp_sqrt()
 {
