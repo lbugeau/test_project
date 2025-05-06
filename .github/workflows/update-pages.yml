@@ -45,6 +45,6 @@ jobs:
         # Commit and push doc
         git add .
         git commit -m "Update Doxygen"
-        git push https://$GITHUB_ACTOR:${{ secrets.GH_PAGES_DEPLOY }}@github.com/${{ github.repository }}.git gh-pages --force
+        git push https://$GITHUB_ACTOR:${{ secrets.GH_PAGES_DEPLOY_2 }}@github.com/${{ github.repository }}.git gh-pages --force
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_2 }}
