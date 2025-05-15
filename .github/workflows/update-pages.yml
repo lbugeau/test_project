@@ -50,10 +50,10 @@ jobs:
     - name: Copy doc on runner
       run: |
         # Copy html doc
-        mkdir ../doc & mkdir../doc/html & cp -r doc/html/* ../doc/html
+        mkdir ../doc & cp -r doc/html/* ../doc
 
         # Copy pdf doc
-        mkdir../doc/pdf & cp -r doc/pdf/*.pdf ../doc/pdf
+        mkdir ../doc/pdf & cp -r doc/pdf/*.pdf ../doc/pdf
 
     # Push doc on branch 'gh-pages'
     - name: Deploy documentation to gh-pages
