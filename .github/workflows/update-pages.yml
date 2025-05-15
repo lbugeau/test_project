@@ -27,7 +27,16 @@ jobs:
 
     # Install pdfLatex
     - name: Install pdfLatex
-      run: sudo apt-get install texlive-latex-base
+      run: |
+        # Install the TexLive base
+        sudo apt-get install texlive-latex-base
+
+        # Also install the recommended and extra fonts
+        sudo apt-get install texlive-fonts-recommended
+        sudo apt-get install texlive-fonts-extra
+        
+        # Install the extra packages
+        sudo apt-get install texlive-latex-extra
 
     # Generate pdf doc
     - name: Generate PDF documentation
