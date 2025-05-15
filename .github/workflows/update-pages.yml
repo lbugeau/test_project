@@ -29,6 +29,14 @@ jobs:
     - name: Install pdfLatex
       run: sudo apt-get install texlive-latex-base
 
+    # Generate pdf doc
+    - name: Generate PDF documentation
+      run: |
+        cd doc/pdf
+        pdflatex user.tex
+        pdflatex developer.tex
+        cd ..
+
     # Copy generated doc to temporary folder
     - name: Copy doc on runner
       run: mkdir ../doc & cp -r doc/html/* ../doc
