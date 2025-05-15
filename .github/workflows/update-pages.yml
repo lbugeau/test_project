@@ -25,9 +25,9 @@ jobs:
         doxygen doxyfile
         cd ..
 
-    # Install pdfTeX
-    - name: Install pdfTeX
-      run: sudo apt-get install pdflatex
+    # Install pdfLatex
+    - name: Install pdfLatex
+      run: sudo apt-get install texlive-latex-base
 
     # Copy generated doc to temporary folder
     - name: Copy doc on runner
